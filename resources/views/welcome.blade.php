@@ -93,8 +93,9 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
-					<h3>March 10th, 2019 Jember, East Java</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h3>March 10th, 2019</h3>
+					<h4>Jember, East Java</h4>
+					<p>We invite you to celebrate our wedding</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -104,7 +105,7 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Taufan Fadhilah Iskandar</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>second son of Mr. Iskandar Adiwinoto & Mrs. Multiati Handayani</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -114,7 +115,7 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Yuyun Dwi Afifa</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>second daughter of Mr. Sudjari Kasnadi and Mrs. Sri Dwiyani (Almh)</p>
 					</div>
 				</div>
 			</div>
@@ -136,34 +137,46 @@
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
+									<h3>Covenant of Marriage</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
+										<span>07:00 AM</span>
+										<span>08:00 AM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
 										<span>Sunday 10</span>
 										<span>March, 2019</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									{{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> --}}
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
+									<h3>Wedding Reception</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
+										<span>10:00 AM</span>
+										<span>01:00 PM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
 										<span>Sunday 10</span>
-										<span>March, 2018</span>
+										<span>March, 2019</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									{{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> --}}
+								</div>
+							</div>
+							<div class="col-md-12 col-sm-12 text-center" style="margin-top: 80px">
+								<div class="animate-box">
+									<div class="event-col">
+										<p style="color: white; font-size: 32px; font-family: 'Sacramento', Arial, serif;">
+											once in a while,
+	right in the middle,
+	of an ordinary life,
+	love give us a fairytale
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -381,37 +394,21 @@
 			<div class="row">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
+						{{-- <span>Best Wishes</span> --}}
+						<h2>Location</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 animate-box">
+					<div class="col-md-12 animate-box text-center">
 						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="{{asset('template/images/couple-1.jpg')}}" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="{{asset('template/images/couple-2.jpg')}}" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
+							{{-- <div class="owl-carousel-fullwidth"> --}}
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.06478091328!2d113.64065824114512!3d-8.235349707631652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd690e64f2d1237%3A0xa63691cd257f485e!2sMasjid+AL-+HIDAYAH!5e0!3m2!1sid!2sid!4v1546702353455" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<p style="margin-top: 20px">
+									Address : <br />
+									Dusun Curah Rejo RT 003 RW 001
+									<br />
+									Desa Sukamakmur, Kec. Ajung - Jember</p>
+								{{-- <div class="item">
 									<div class="testimony-slide active text-center">
 										<figure>
 											<img src="{{asset('template/images/couple-3.jpg')}}" alt="user">
@@ -421,8 +418,8 @@
 											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
 										</blockquote>
 									</div>
-								</div>
-							</div>
+								</div> --}}
+							{{-- </div> --}}
 						</div>
 					</div>
 				</div>
@@ -526,7 +523,6 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2018 Free HTML5. All Rights Reserved.</small>
 						<small class="block">Costumized by <a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank">Taufan Fadhilah Iskandar</a></small>
 					</p>
 					<p>
