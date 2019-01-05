@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Weeding Taufan & Yuyun</title>
+	<title>Wedding Taufan & Yuyun</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Wedding Website for Taufan Fadhilah Iskandar and Yuyun Dwi Afifa" />
 	<meta name="author" content="Taufan Fadhilah Iskandar" />
@@ -58,7 +58,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Weeding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
 				</div>
 				{{-- <div class="col-xs-10 text-right menu-1">
 					<ul>
