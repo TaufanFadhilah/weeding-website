@@ -83,7 +83,7 @@
 							<h1>Taufan &amp; Yuyun</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDEwazZiZWtxcmRhMTFnZXBxcjVkZGFtdjYgaGM0MTAwaWlrOTEwN2s5ZmR0OHBibG44cG9AZw&tmsrc=hc4100iik9107k9fdt8pbln8po%40group.calendar.google.com" target="_blank" class="btn btn-default btn-sm">Save the date</a></p>
 						</div>
 					</div>
 				</div>
