@@ -60,11 +60,11 @@
 				<div class="col-xs-2">
 					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
 				</div>
-				{{-- <div class="col-xs-10 text-right menu-1">
+				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
+						<li class="active"><a href="{{url('/')}}">Home</a></li>
 					</ul>
-				</div> --}}
+				</div>
 			</div>
 
 		</div>
@@ -527,7 +527,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2018 Free HTML5. All Rights Reserved.</small>
-						<small class="block">Costumized by <a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank">Taufan Fadhilah Iskandar</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">Costumized by <a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank">Taufan Fadhilah Iskandar</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
