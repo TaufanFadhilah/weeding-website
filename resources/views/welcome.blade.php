@@ -527,14 +527,14 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2018 Free HTML5. All Rights Reserved.</small>
-						<small class="block">Costumized by <a href="http://freehtml5.co/" target="_blank">Taufan Fadhilah Iskandar</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">Costumized by <a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank">Taufan Fadhilah Iskandar</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-instagram"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#" target="_blank"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/taufanfadhilah/?hl=id" target="_blank"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank"><i class="icon-linkedin"></i></a></li>
+							<li><a href="https://github.com/TaufanFadhilah" target="_blank"><i class="icon-github"></i></a></li>
 						</ul>
 					</p>
 				</div>
