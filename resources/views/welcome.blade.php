@@ -103,9 +103,9 @@
 					<div class="groom">
 						<img src="{{asset('template/images/groom.jpg')}}" alt="groom" class="img-responsive">
 					</div>
-					<div class="desc-groom">
-						<h3>Taufan Fadhilah Iskandar</h3>
-						<p>second son of Mr. Iskandar Adiwinoto & Mrs. Multiati Handayani</p>
+					<div class="desc-groom" style="padding-top: 40px">
+						<h3 class="text-center">Taufan Fadhilah Iskandar</h3>
+						<p class="text-center">Second son of Mr. ISKANDAR ADIWINOTO & Mrs. MULTIATI HANDAYANI</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -113,9 +113,9 @@
 					<div class="bride">
 						<img src="{{asset('template/images/bride.jpg')}}" alt="groom" class="img-responsive">
 					</div>
-					<div class="desc-bride">
-						<h3>Yuyun Dwi Afifa</h3>
-						<p>second daughter of Mr. Sudjari Kasnadi and Mrs. Sri Dwiyani (Almh)</p>
+					<div class="desc-bride" style="padding-top: 40px">
+						<h3 class="text-center">Yuyun Dwi Afifa</h3>
+						<p class="text-center">Second daughter of Mr. SUDJARI KASNADI & Mrs. SRI DWIYANI (Almh)</p>
 					</div>
 				</div>
 			</div>
@@ -186,302 +186,34 @@
 		</div>
 	</div>
 
-	<!-- <div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); ">
-						<a href="images/gallery-1.jpg">
-							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
-							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
-
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
-							</div>
-						</a>
-					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); ">
-							<a href="#" class="color-5">
-								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-users"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Estimated Guest</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-user"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">We Catter</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-calendar"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Events Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
 	<div id="fh5co-testimonial">
 		<div class="container">
 			<div class="row">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						{{-- <span>Best Wishes</span> --}}
+						<span>Wedding Venue</span>
 						<h2>Location</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 animate-box text-center">
 						<div class="wrap-testimony">
-							{{-- <div class="owl-carousel-fullwidth"> --}}
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.06478091328!2d113.64065824114512!3d-8.235349707631652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd690e64f2d1237%3A0xa63691cd257f485e!2sMasjid+AL-+HIDAYAH!5e0!3m2!1sid!2sid!4v1546702353455" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.06478091328!2d113.64065824114512!3d-8.235349707631652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd690e64f2d1237%3A0xa63691cd257f485e!2sMasjid+AL-+HIDAYAH!5e0!3m2!1sid!2sid!4v1546702353455" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 								<p style="margin-top: 20px">
-									Address : <br />
-									Dusun Curah Rejo RT 003 RW 001
-									<br />
-									Desa Sukamakmur, Kec. Ajung - Jember</p>
-								{{-- <div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="{{asset('template/images/couple-3.jpg')}}" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div> --}}
-							{{-- </div> --}}
+									<a href="https://www.google.com/maps?ll=-8.235358,113.640697&z=17&t=m&hl=en-US&gl=ID&mapclient=embed&daddr=Masjid+AL-+HIDAYAH+Dusun+Curah+Rejo,+Sukamakmur+Ajung,+Kabupaten+Jember,+Jawa+Timur+68175@-8.2353581,113.6406969" target="_blank">
+										Address : <br />
+										Dusun Curah Rejo RT 003 RW 001
+										<br />
+										Desa Sukamakmur, Kec. Ajung - Jember
+									</a>
+								</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- <div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>We Organized Events</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-image"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Photoshoot</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Video Editing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-	</div> -->
 
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(template/images/new_bg_3.jpg);">
@@ -517,13 +249,13 @@
 		</div>
 	</div>
 
-	<footer id="fh5co-footer" role="contentinfo">
+	<footer id="fh5co-footer" role="contentinfo" style="max-height: 10px">
 		<div class="container">
 
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">Costumized by <a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank">Taufan Fadhilah Iskandar</a></small>
+						<small class="block">Costumized by <a href="https://www.linkedin.com/in/taufan-fadhilah-iskandar-13a3a6a1/" target="_blank">Taufan Fadhilah Iskandar</a> & <a href="#">Yuyun Dwi Afifa</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -585,7 +317,7 @@
         day: d.getDate(),
         enableUtc: false
     });
-</script>
+	</script>
 
 	</body>
 </html>
