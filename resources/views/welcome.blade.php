@@ -23,6 +23,9 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	{{-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"> --}}
+	<link rel="icon" type="image/png" href="{{asset('favicon.png')}}"/>
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{asset('template/css/animate.css')}}">
