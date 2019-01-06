@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/getClient', 'HomeController@getClient')->name('getClient');
+Route::resource('participant', 'ParticipantController');

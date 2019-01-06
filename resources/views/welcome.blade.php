@@ -20,7 +20,7 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 	{{-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -174,10 +174,7 @@
 								<div class="animate-box">
 									<div class="event-col">
 										<p style="color: white; font-size: 32px; font-family: 'Sacramento', Arial, serif;">
-											once in a while,
-	right in the middle,
-	of an ordinary life,
-	love give us a fairytale
+											once in a while, right in the middle, of an ordinary life, love give us a fairytale
 										</p>
 									</div>
 								</div>
@@ -230,21 +227,22 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
+					<form id="form" class="form-inline" action="{{route('participant.store')}}" method="post">
+						<input type="hidden" name="_token" value="{{csrf_token()}}" />
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
+								<input type="name" name="name" class="form-control" id="name" placeholder="Name" required>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+							<button id="formButton" type="submit" class="btn btn-default btn-block">I am Attending</button>
 						</div>
 					</form>
 				</div>
@@ -300,6 +298,7 @@
 
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 	<script src="{{asset('template/js/simplyCountdown.js')}}"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- Main -->
 	<script src="{{asset('template/js/main.js')}}"></script>
 
@@ -320,6 +319,33 @@
         day: d.getDate(),
         enableUtc: false
     });
+
+		function myFunction(e) {
+		  swal("Here's the title!", "...and here's the text!");
+			console.log(e);
+		}
+
+		$( document ).ready(function() {
+			$('#form').submit(function (event) {
+
+						event.preventDefault();
+
+						fetch("{{route('participant.store')}}", {
+							 method: 'post',
+							 credentials: "same-origin",
+							 body: new FormData(document.getElementById('form'))
+							 // body: JSON.stringify({
+								//  csrf_token: {{csrf_token()}},
+								//  name: 'Taufan',
+								//  email: 'taufan@gmail.com'
+							 // })
+						 })
+							 .then(response => response.json())
+							 .then(data => swal("Form Submited", "Thank you for your attention, please check your email for more information."))
+							 .catch(error => console.log(error));
+				});
+		});
+
 	</script>
 
 	</body>

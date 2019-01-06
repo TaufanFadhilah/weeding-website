@@ -27,16 +27,4 @@ class HomeController extends Controller
     {
         return view('home');
     }
-
-    public function getClient(){
-      //create a new event
-      $event = new Event;
-
-      $event->name = 'A new event';
-      $event->startDateTime = Carbon::now();
-      $event->endDateTime = Carbon::now()->addHour();
-      $event->addAttendee(['email' => 'taufanfadhilahiskandar@gmail.com']);
-
-      $event->save();
-    }
 }
