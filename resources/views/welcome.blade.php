@@ -324,7 +324,10 @@
 		$('#form').submit(function (event) {
 
 					event.preventDefault();
-
+					swal({
+						text: 'Please wait',
+						buttons: false
+					})
 					fetch("{{route('participant.store')}}", {
 							method: 'post',
 							credentials: "same-origin",

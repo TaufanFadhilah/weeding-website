@@ -38,7 +38,8 @@ class ParticipantController extends Controller
     public function store(Request $request)
     {
       Participant::create($request->all());
-      Mail::to($request->email)->send(new ParticipantThank());
+    //   Mail::to($request->email)->send(new ParticipantThank());
+      Mail::to($request->email)->queue(new ParticipantThank());
       return response()->json($request);
     }
 

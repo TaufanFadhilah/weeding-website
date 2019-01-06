@@ -28,6 +28,6 @@ class ParticipantThank extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.participants.thanks');
+        return $this->from('noreply@wedding.taufan-yuyun.web.id')->subject('Wedding Taufan and Yuyun')->markdown('emails.participants.thanks');
     }
 }
