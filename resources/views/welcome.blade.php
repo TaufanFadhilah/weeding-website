@@ -320,30 +320,26 @@
         enableUtc: false
     });
 
-		function myFunction(e) {
-		  swal("Here's the title!", "...and here's the text!");
-			console.log(e);
-		}
+	$( document ).ready(function() {
+		$('#form').submit(function (event) {
 
-		$( document ).ready(function() {
-			$('#form').submit(function (event) {
+					event.preventDefault();
 
-						event.preventDefault();
-
-						fetch("{{route('participant.store')}}", {
-							 method: 'post',
-							 credentials: "same-origin",
-							 body: new FormData(document.getElementById('form'))
-							 // body: JSON.stringify({
-								//  csrf_token: {{csrf_token()}},
-								//  name: 'Taufan',
-								//  email: 'taufan@gmail.com'
-							 // })
-						 })
-							 .then(response => response.json())
-							 .then(data => swal("Form Submited", "Thank you for your attention, please check your email for more information."))
-							 .catch(error => console.log(error));
-				});
+					fetch("{{route('participant.store')}}", {
+							method: 'post',
+							credentials: "same-origin",
+							body: new FormData(document.getElementById('form'))
+							// body: JSON.stringify({
+							//  csrf_token: {{csrf_token()}},
+							//  name: 'Taufan',
+							//  email: 'taufan@gmail.com'
+							// })
+						})
+							.then(response => response.json())
+							.then(data => swal("Form Submited", "Thank you for your attention, please check your email for more information."))
+							.catch(error => swal("Error", "Sorry, something went error", 'error'))
+						//  .catch(error => console.log(error));
+			});
 		});
 
 	</script>

@@ -4,10 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Participant;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ParticipantThank;
 class ParticipantController extends Controller
 {
     /**
+     * 
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -36,6 +38,7 @@ class ParticipantController extends Controller
     public function store(Request $request)
     {
       Participant::create($request->all());
+      Mail::to($request->email)->send(new ParticipantThank());
       return response()->json($request);
     }
 
