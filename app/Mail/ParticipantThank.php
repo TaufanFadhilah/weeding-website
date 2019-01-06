@@ -16,9 +16,10 @@ class ParticipantThank extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    protected $name;
+    public function __construct($name)
     {
-        //
+        $this->name = $name;
     }
 
     /**
@@ -28,6 +29,11 @@ class ParticipantThank extends Mailable
      */
     public function build()
     {
-        return $this->from('noreply@wedding.taufan-yuyun.web.id')->subject('Wedding Taufan and Yuyun')->markdown('emails.participants.thanks');
+        return $this->from('noreply@wedding.taufan-yuyun.web.id')
+            ->subject('Wedding Taufan and Yuyun')
+            ->markdown('emails.participants.thanks')
+            ->with([
+            'name' => $this->name
+            ]);
     }
 }

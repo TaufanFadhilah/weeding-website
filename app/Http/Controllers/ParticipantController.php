@@ -39,7 +39,7 @@ class ParticipantController extends Controller
     {
       Participant::create($request->all());
     //   Mail::to($request->email)->send(new ParticipantThank());
-      Mail::to($request->email)->queue(new ParticipantThank());
+      Mail::to($request->email)->queue(new ParticipantThank($request->name));
       return response()->json($request);
     }
 
