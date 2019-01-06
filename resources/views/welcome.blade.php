@@ -320,7 +320,7 @@
         enableUtc: false
     });
 
-	$( document ).ready(function() {
+	$(document).ready(function() {
 		$('#form').submit(function (event) {
 
 					event.preventDefault();
@@ -332,16 +332,10 @@
 							method: 'post',
 							credentials: "same-origin",
 							body: new FormData(document.getElementById('form'))
-							// body: JSON.stringify({
-							//  csrf_token: {{csrf_token()}},
-							//  name: 'Taufan',
-							//  email: 'taufan@gmail.com'
-							// })
 						})
 							.then(response => response.json())
 							.then(data => swal("Form Submited", "Thank you for your attention, please check your email for more information."))
-							.catch(error => swal("Error", "Sorry, something went error", 'error'))
-						//  .catch(error => console.log(error));
+							.catch(error => swal("Error", "Sorry, something went error", 'error'));
 			});
 		});
 
