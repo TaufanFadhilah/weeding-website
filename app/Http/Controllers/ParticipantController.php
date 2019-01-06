@@ -16,7 +16,9 @@ class ParticipantController extends Controller
      */
     public function index()
     {
-        //
+        return view('participant.index',[
+            'participants' => Participant::all()
+        ]);
     }
 
     /**
