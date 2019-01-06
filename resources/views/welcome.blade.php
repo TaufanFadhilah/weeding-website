@@ -104,7 +104,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="{{asset('template/images/groom.jpg')}}" alt="groom" class="img-responsive">
+						<img src="{{asset('template/images/photo_taufan.jpg')}}" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom" style="padding-top: 40px">
 						<h3 class="text-center">Taufan Fadhilah Iskandar</h3>
@@ -114,7 +114,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="{{asset('template/images/bride.jpg')}}" alt="groom" class="img-responsive">
+						<img src="{{asset('template/images/photo_yuyun.jpg')}}" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride" style="padding-top: 40px">
 						<h3 class="text-center">Yuyun Dwi Afifa</h3>
